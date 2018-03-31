@@ -17,5 +17,10 @@ namespace POO_PFR_Part2
         {
 
         }
+        public override string ToString()
+        {
+            return base.ToString()
+                + ", Pouvoir : " + pouvoirs + ", Tatouage : " + tatouage; 
+        }
     }
 }

@@ -21,6 +21,11 @@ namespace POO_PFR_Part2
 
         }
 
+        public override string ToString()
+        {
+            return base.ToString()
+                + ", Affectation : " + affectation + ", Cagnotte : " + cagnotte; 
+        }
 
 
 

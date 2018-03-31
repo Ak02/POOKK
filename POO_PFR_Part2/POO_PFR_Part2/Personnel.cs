@@ -28,7 +28,7 @@ namespace POO_PFR_Part2
         #endregion
         public override string ToString()
         {
-            return base.ToString();
+            return "Matricule : " + matricule + ", Nom : " + nom + ", Prenom : " + prenom + ", Sexe : " + sexe + ", Fonction : " + fonction;
         }
     }
 }
