@@ -17,5 +17,11 @@ namespace POO_PFR_Part2
             this.degreDecomposition = degreDecomposition;
             this.teint = teint;
         }
+
+        public int DegreDecomposition
+        {
+            get { return degreDecomposition; }
+            set { }
+        }
     }
 }

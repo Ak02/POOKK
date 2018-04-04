@@ -15,5 +15,16 @@ namespace POO_PFR_Part2
             this.indiceCruaute = indiceCruaute;
         }
 
+        public override string ToString()
+        {
+            return base.ToString()
+                + "Indice Cruauté : " + indiceCruaute; 
+        }
+
+        public double IndiceCruaute
+        {
+            get { return indiceCruaute; }
+            set { }
+        }
     }
 }

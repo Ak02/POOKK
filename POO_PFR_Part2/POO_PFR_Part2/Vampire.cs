@@ -15,5 +15,11 @@ namespace POO_PFR_Part2
         {
             this.indiceLuminosite = indiceLuminosite;
         }
+
+        public float IndiceLuminosite
+        {
+            get { return indiceLuminosite; }
+            set { }
+        }
     }
 }

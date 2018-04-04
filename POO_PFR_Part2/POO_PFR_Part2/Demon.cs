@@ -15,5 +15,11 @@ namespace POO_PFR_Part2
         {
             this.force = force;
         }
+
+        public int Force
+        {
+            get { return force; }
+            set { }
+        }
     }
 }
